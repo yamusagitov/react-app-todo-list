@@ -1,0 +1,13 @@
+<App>
+    <AppHeader>
+    <SearchPanel>
+    <ItemStatusFilter>
+    <TodoList>
+        <TodoListItem>  <--- Button
+        <TodoListItem>  <--- Button
+        <TodoListItem>  <--- Button
+        
+        //-----
+    При нажатии кнопки Button (onClick) на TodoListItem вызывается функция, которую передал TodoList, 
+находящийся выше TodoListItem по иерархии. TodoList в свою очередь вызывает фунцию, которую передал ему App.
+  То есть наверх по иерархии передается информация о том, что произошло.
